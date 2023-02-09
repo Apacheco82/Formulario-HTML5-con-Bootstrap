@@ -37,7 +37,7 @@
       </div>
       <div class="card-body">
         
-        <form>  
+        <form id="formulario">  
           <div class="alert alert-danger" role="alert">
             Some fields are missing
           </div>
@@ -154,12 +154,13 @@
                 </small>
            </div>
         </div>
-           </form>
+      </form>
 
       </div>
       <div class="card-footer text-end">
-        <a href="#" class="btn btn-secondary">Cancel</a>
-        <a href="#" class="btn btn-primary">Send</a>
+        <button href="#" type="reset" form="formulario" class="btn btn-secondary">Cancel</button>
+        <button href="#" type="submit" form="formulario" class="btn btn-primary">Send</button>
+        
       </div>
     </div>
 
